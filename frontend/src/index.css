@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&display=swap');
+
+:root{color-scheme:light dark}
+html,body,#root{height:100%}
+body{font-family:'Manrope',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:#0b1f1f}
+*{box-sizing:border-box}
+
+/* Basic Tailwind-like utility fallbacks if Tailwind not present */
+.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}
+.from-\[\#0f172a\]{--tw-gradient-from:#0f172a}
+.via-\[\#0b2f2e\]{--tw-gradient-stops:var(--tw-gradient-from), #0b2f2e, var(--tw-gradient-to, rgb(11 47 46 / 0))}
+.to-\[\#0b1f1f\]{--tw-gradient-to:#0b1f1f}
+
+/* Minimal styles assumed Tailwind is configured by template */
